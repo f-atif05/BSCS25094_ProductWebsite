@@ -1,0 +1,280 @@
+
+.topnav{
+    background-color: rgb(150,0,0);
+    overflow: hidden;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 150 px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000
+}
+.topnav a{
+    color: rgb(255, 234, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.topnav a:hover{
+    background-color: rgba(150,0,0);
+    border-radius: 5px;
+    color: white;
+}
+.topnav a.acive {
+    background-color: rgb(150,0,0);
+    border-radius: 5px;
+}
+.roll-number{
+    font-size: 2rem;
+    font-weight: bold;
+    color:rgb(255, 234, 0); 
+}
+body.Home{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url('BSCS25094_image01.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ; 
+}
+.hero{
+
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    padding-top: 100px;
+}
+
+.site-box{
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+}
+.site-box h1{
+    color: rgb(150,0,0);
+    margin: 0;
+    font-weight: bold;
+    font-size: 7.5rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-shadow: 2px,4px, 4px grey;
+    transition: transform 0.3s ease;
+}
+.site-box h1:hover{
+    transform: scale(1.5);
+}
+.product-hero{
+    position: relative;
+    text-align: center;
+}
+
+.products-overlay{
+    color:rgb(150,0,0);
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color:rgb(150,0,0);
+    color: rgb(255, 234, 0);  
+    font-size: 1.4rem;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3 ease;
+}
+.btn:hover{
+    background-color: rgb(150,0,0);
+    color: white;
+
+}
+.site-footer{
+    background-color: rgb(150,0,0);
+    color: rgb(255, 234, 0);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.site-footer h3{
+    margin-bottom: 15px;
+    color: rgb(255, 234, 0);
+}
+.site-footer p{
+    margin: 10px;
+}
+header{
+    background-color: rgb(150,0,0);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    flex-wrap: wrap;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+header h1{
+    margin: 0;
+    font-size: 2rem;
+    color:rgb(255, 234, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav{
+    gap: 10px;
+    justify-content: flex-start;
+}
+header nav a{
+    color: rgb(255, 234, 0);
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+header nav a:hover{
+    background-color: rgba(150,0,0);
+    border-radius: 5px;
+    color: white;
+}
+header nav a.active {
+    background-color: rgb(150,0,0);
+    border-radius: 5px;
+    color: yellow;
+}
+.List-of-Products{
+    display: flex;
+    gap: 25px;
+    padding: 100px 25px 25px;
+    flex-direction: column;
+}
+.Product{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 20px;
+    background-color: rgb(255, 234, 0);
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.product-details{
+    flex: 1;
+
+}
+body.Products{
+    background-color: rgb(150,0,0);
+}
+body.Contacts{
+    font-family: Arial, sans-serif;
+    background-color: rgb(150,0,0);
+    background-size: cover;
+}
+.nav-bar{
+    background-color: rgb(150,0,0);
+    color:rgb(255, 234, 0);
+    padding: 15px;
+    text-align: center;
+}
+.nav-bar h1{
+    margin-bottom: 10px;
+}
+.nav-bar nav a{
+    color:rgb(255, 234, 0);
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+.nav-bar nav a:hover{
+    background-color: rgba(150,0,0);
+    border-radius: 5px;
+    color: white;
+}
+header nav a.active {
+    background-color: rgb(150,0,0);
+    border-radius: 5px;
+    color: yellow;
+}
+.contact-box{
+    background: white;
+    max-width: 450px;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgb(150,0,0);
+    text-align: center;
+}
+.contact-box h1{
+    margin-bottom: 15px;
+}
+.contact-box p{
+    margin: 10px 0;
+}
+.social-accounts a{
+    display: inline-block;
+    margin: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background: white;
+    border: 2px;
+    color: rgb(150,0,0)
+}
+.social-accounts a img{
+    width: 20px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.social-accounts a:hover{
+    background-color: rgba(150,0,0);
+    border-radius: 5px;
+    color: white;
+}
+#chatbot-container {
+    width: 300px;
+    height: 450px;
+    display: flex;
+    border: 1px rgb(255, 234, 0);
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 20px;
+    overflow: hidden;
+    background-color: ghostwhite;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#chat-window {
+    content: "Chat with us";
+    padding: 12px;
+    overflow-y: auto;
+    flex: 1;
+    background-color: white;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+#input-area {
+    display: flex;
+    background-color: rgb(150,0,0);
+    padding: 10px;
+
+}
+#user-input {
+    flex: 1;
+    padding: 5px;
+}
+#input-area button:hover {
+    background-color: white;
+    color: rgb(150,0,0);
+    padding: 8px 10px
+}
